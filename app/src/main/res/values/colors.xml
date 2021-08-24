@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color">#fc6011</color>
+    <color name="main_color_dark">#cc4e0e</color>
+    <color name="primary_color">#4A4B4D</color>
+    <color name="secondary_color">#7c7d7e</color>
+    <color name="placeholder_color">#b6b7b7</color>
+    <color name="et_back_color">#F0F1F5</color>
+    <color name="ic_launcher_background">#FAFAFA</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="trans">#00000000</color>
+</resources>

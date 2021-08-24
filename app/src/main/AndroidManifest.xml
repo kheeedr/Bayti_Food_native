@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.khedrandbasuoni.baytifood">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+        android:theme="@style/Theme.BaytiFood">
+
+        <activity
+            android:name=".ui.activities.newPassword.NewPasswordActivity"
+            android:screenOrientation="nosensor"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".ui.activities.verifyCode.VerifyCodeActivity"
+            android:screenOrientation="nosensor"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".ui.activities.resetPassword.ResetPasswordActivity"
+            android:screenOrientation="nosensor"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".ui.activities.main.MainActivity"
+            android:screenOrientation="nosensor"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".ui.activities.register.RegisterActivity"
+            android:screenOrientation="nosensor"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".ui.activities.login.LoginActivity"
+            android:screenOrientation="nosensor"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".ui.activities.welcome.WelcomeActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".ui.activities.splash.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>

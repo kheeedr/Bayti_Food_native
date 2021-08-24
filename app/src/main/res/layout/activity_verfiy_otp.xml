@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_20sdp"
+        tools:context=".ui.activities.verifyCode.VerifyCodeActivity">
+
+        <TextView
+            android:id="@+id/tv_main_otp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:fontFamily="@font/metropolis_extra_bold"
+            android:gravity="center"
+            android:text="@string/verification_code"
+            android:textColor="@color/primary_color"
+            android:textSize="@dimen/_25sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_hearDescription_otp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/metropolis_regular"
+            android:gravity="center"
+            android:lineHeight="@dimen/_15sdp"
+            android:paddingHorizontal="@dimen/_60sdp"
+            android:text="@string/enter_the_code_that_we_sent_you_in_the_sms"
+            android:textColor="@color/primary_color"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_main_otp"
+            tools:targetApi="p" />
+
+<!--        <com.fraggjkee.smsconfirmationview.SmsConfirmationView-->
+<!--            android:id="@+id/et_verifyCode_otp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="@dimen/_25sdp"-->
+<!--            android:layout_marginTop="@dimen/_30sdp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/tv_hearDescription_otp"-->
+<!--            app:scv_codeLength="4"-->
+<!--            app:scv_symbolBackgroundColor="@color/et_back_color"-->
+<!--            app:scv_symbolBorderColor="@color/trans"-->
+<!--            app:scv_symbolBorderCornerRadius="@dimen/_10sdp"-->
+<!--            app:scv_symbolHeight="@dimen/_40sdp"-->
+<!--            app:scv_symbolTextColor="@color/primary_color"-->
+<!--            app:scv_symbolTextSize="@dimen/_20sdp"-->
+<!--            app:scv_symbolWidth="@dimen/_40sdp"-->
+<!--            app:scv_symbolsSpacing="@dimen/_10sdp" />-->
+
+
+        <Button
+            android:id="@+id/bt_verify_otp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:background="@drawable/stroke_bt"
+            android:fontFamily="@font/metropolis_regular"
+            android:paddingVertical="@dimen/_5sdp"
+            android:text="@string/verify"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_15sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.85" />
+<!--        app:layout_constraintTop_toBottomOf="@+id/et_verifyCode_otp"-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

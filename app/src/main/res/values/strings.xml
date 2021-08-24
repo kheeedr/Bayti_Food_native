@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Bayti Food</string>
+    <string name="meal">Meal</string>
+    <string name="delivery">Delivery</string>
+    <string name="find_food_you_love">Find Food You Love</string>
+    <string name="description_find_food_you_love">Discover the best foods from over 1,000 restaurants and fast delivery to your doorstep</string>
+    <string name="get_started">Get Started</string>
+    <string name="next">Next</string>
+    <string name="fast_delivery">Fast Delivery</string>
+    <string name="description_fast_delivery">Fast food delivery to your home, office wherever you are</string>
+    <string name="live_tracking">Live Tracking</string>
+    <string name="description_live_tracking">Real time tracking of your food on the app once you placed the order</string>
+    <string name="skip">Skip</string>
+    <string name="logo">logo</string>
+    <string name="splash_background">splash background</string>
+    <string name="login">Login</string>
+    <string name="for_food_delivery">For Food Delivery</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="todo">todo</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="new_password">New Password</string>
+    <string name="re_password">Re-password</string>
+    <string name="name">Name</string>
+    <string name="add_your_details_to_sign_up">Add your details to sign up</string>
+    <string name="welcome">Welcome</string>
+    <string name="delivering_to">Delivering to</string>
+    <string name="current_location">Current Location</string>
+    <string name="menu">Menu</string>
+    <string name="shopping">Shopping</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="more">More</string>
+    <string name="search_here">Search here</string>
+    <string name="view_all">View all</string>
+    <string name="popular_restaurants">Popular Restaurants</string>
+    <string name="name_fast_food">Name Fast Food</string>
+    <string name="popular_most">Popular Most</string>
+    <string name="edit_profile_picture">Edit profile picture</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="e_mail">E-mail</string>
+    <string name="save">Save</string>
+    <string name="recent_items">Recent Items</string>
+    <string name="update">Update</string>
+    <string name="forget_password">forget password ?</string>
+    <string name="enter_your_phone_number_to_get_verification_code">Enter your phone number to get verification code</string>
+    <string name="reset_password_header">Reset Password</string>
+    <string name="send_code">Send Code</string>
+    <string name="verify">Verify</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="enter_the_code_that_we_sent_you_in_the_sms">enter the code that we sent you in the SMS</string>
+
+
+</resources>
