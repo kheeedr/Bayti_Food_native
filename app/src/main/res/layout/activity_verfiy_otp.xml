@@ -6,7 +6,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/_20sdp"
+        android:fitsSystemWindows="true"
         tools:context=".ui.activities.verifyCode.VerifyCodeActivity">
 
         <TextView
@@ -40,24 +40,52 @@
             app:layout_constraintTop_toBottomOf="@+id/tv_main_otp"
             tools:targetApi="p" />
 
-<!--        <com.fraggjkee.smsconfirmationview.SmsConfirmationView-->
-<!--            android:id="@+id/et_verifyCode_otp"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginHorizontal="@dimen/_25sdp"-->
-<!--            android:layout_marginTop="@dimen/_30sdp"-->
-<!--            app:layout_constraintEnd_toEndOf="parent"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:layout_constraintTop_toBottomOf="@+id/tv_hearDescription_otp"-->
-<!--            app:scv_codeLength="4"-->
-<!--            app:scv_symbolBackgroundColor="@color/et_back_color"-->
-<!--            app:scv_symbolBorderColor="@color/trans"-->
-<!--            app:scv_symbolBorderCornerRadius="@dimen/_10sdp"-->
-<!--            app:scv_symbolHeight="@dimen/_40sdp"-->
-<!--            app:scv_symbolTextColor="@color/primary_color"-->
-<!--            app:scv_symbolTextSize="@dimen/_20sdp"-->
-<!--            app:scv_symbolWidth="@dimen/_40sdp"-->
-<!--            app:scv_symbolsSpacing="@dimen/_10sdp" />-->
+        <com.chaos.view.PinView
+            android:id="@+id/et_verifyCode_otp"
+            style="@style/PinWidget.PinView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:cursorVisible="true"
+            android:inputType="number"
+            android:itemBackground="@color/et_back_color"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            app:cursorColor="@color/primary_color"
+            app:cursorWidth="@dimen/_1sdp"
+            app:hideLineWhenFilled="true"
+            app:itemCount="4"
+            app:itemHeight="@dimen/_40sdp"
+            app:itemRadius="@dimen/_15sdp"
+            app:itemSpacing="@dimen/_10sdp"
+            app:itemWidth="@dimen/_40sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_hearDescription_otp"
+            app:lineColor="@color/trans"
+            app:lineWidth="0dp"
+            app:viewType="rectangle"
+
+            />
+
+        <!--        <com.fraggjkee.smsconfirmationview.SmsConfirmationView-->
+        <!--            android:id="@+id/et_verifyCode_otp"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--             android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--             android:layout_marginHorizontal="@dimen/_25sdp"-->
+        <!--             android:layout_marginTop="@dimen/_30sdp"-->
+        <!--             app:scv_codeLength="4"-->
+        <!--            app:scv_symbolBackgroundColor="@color/et_back_color"-->
+        <!--            app:scv_symbolBorderColor="@color/trans"-->
+        <!--            app:scv_symbolBorderCornerRadius="@dimen/_10sdp"-->
+        <!--            app:scv_symbolHeight="@dimen/_40sdp"-->
+        <!--            app:scv_symbolTextColor="@color/primary_color"-->
+        <!--            app:scv_symbolTextSize="@dimen/_20sdp"-->
+        <!--            app:scv_symbolWidth="@dimen/_40sdp"-->
+        <!--            app:scv_symbolsSpacing="@dimen/_10sdp" />-->
 
 
         <Button
@@ -74,8 +102,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_verifyCode_otp"
             app:layout_constraintVertical_bias="0.85" />
-<!--        app:layout_constraintTop_toBottomOf="@+id/et_verifyCode_otp"-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

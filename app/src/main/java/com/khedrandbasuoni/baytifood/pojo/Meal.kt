@@ -11,5 +11,4 @@ class Meal(
 ) {
     var images: List<Int> = ArrayList()
     var sizes: List<Double> = ArrayList()
-
 }

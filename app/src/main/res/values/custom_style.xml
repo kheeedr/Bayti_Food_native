@@ -2,10 +2,17 @@
 <resources>
 
     <style name="rounded_corners">
+        <item name="cornerSize">10%</item>
+    </style>
+    <style name="full_rounded_corners">
         <item name="cornerSize">50%</item>
     </style>
+    <style name="rounded_top_corners">
+        <item name="cornerSizeTopLeft">10%</item>
+        <item name="cornerSizeTopRight">10%</item>
+    </style>
 
-    <style name="Small_three_rounded_corners">
+    <style name="Three_rounded_corners">
         <item name="cornerSizeBottomLeft">20%</item>
         <item name="cornerSizeBottomRight">20%</item>
         <item name="cornerSizeTopLeft">20%</item>

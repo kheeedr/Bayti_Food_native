@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/Product"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:background="@drawable/back_rounded"
+            android:elevation="@dimen/_3sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_beverages_menu_section"
+            android:translationZ="@dimen/_5sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearance="@color/white"
+            app:shapeAppearanceOverlay="@style/rounded_corners" />
+
+        <TextView
+            android:id="@+id/Name_itmes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Fast Food Name"
+            android:textAlignment="center"
+            android:textColor="@color/primary_color"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Product" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

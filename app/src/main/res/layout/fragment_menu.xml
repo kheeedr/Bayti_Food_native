@@ -3,99 +3,97 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-
-
-    <ScrollView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.fragments.MenuFragment"
-        android:background="#FFFFFF">
+        tools:context=".ui.fragments.MenuFragment">
 
-        <!-- TODO: Update blank fragment layout -->
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="MissingConstraints">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_40sdp"
-                android:layout_marginTop="@dimen/_35sdp">
-
-                <TextView
-                    android:id="@+id/MainTxtWelcome"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="@dimen/_25sdp"
-                    android:text="@string/menu"
-                    android:textColor="#4A4B4D"
-                    android:textSize="@dimen/_25sdp"
-                    tools:ignore="RelativeOverlap" />
-
-                <ImageView
-                    android:id="@+id/ic_cart_menu"
-                    android:layout_width="@dimen/_30sdp"
-                    android:layout_height="@dimen/_20sdp"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginEnd="@dimen/_20sdp"
-                    android:layout_marginBottom="@dimen/_2sdp"
-                    android:src="@drawable/ic_shopping_cart"
-                    android:contentDescription="@string/todo" />
-
-            </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layout_mainTv_menu"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@color/white"
+            app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/et_search_men"
-                android:gravity="center_vertical"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_40sdp"
-                android:layout_marginLeft="@dimen/_20sdp"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:layout_marginRight="@dimen/_20sdp"
-                android:background="@drawable/back_button"
-                android:hint="@string/search_here"
-                android:paddingStart="@dimen/_30sdp"
-                tools:ignore="RtlSymmetry" />
-
-
-            <RelativeLayout
-                android:layout_width="match_parent"
+                android:id="@+id/MainTxtWelcome"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_15sdp"
-                android:layout_marginBottom="@dimen/_50sdp">
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:text="@string/menu"
+                android:textColor="#4A4B4D"
+                android:textSize="@dimen/_25sdp"
+                 />
+
+
+        </RelativeLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scroll_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <EditText
+                    android:id="@+id/et_search_men"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:background="@drawable/back_button"
+                    android:gravity="center_vertical"
+                    android:hint="@string/search_here"
+                    android:paddingStart="@dimen/_30sdp"
+                    tools:ignore="RtlSymmetry"
+                     />
+
 
                 <RelativeLayout
-                    android:layout_width="@dimen/_50sdp"
-                    android:layout_height="0dp"
-                    android:layout_alignBottom="@+id/rv_typeOrder_menu"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="@dimen/_20sdp"
-                    android:layout_marginBottom="0dp"
-                    android:background="@drawable/back_menu" />
-
-                <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/rv_typeOrder_menu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="@dimen/_20sdp"
-                    android:paddingBottom="@dimen/_25sdp"
-                    android:layout_marginTop="@dimen/_20sdp"
-                    android:layout_marginBottom="@dimen/_20sdp" />
+                    android:layout_marginBottom="@dimen/_50sdp">
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="0dp"
+                        android:layout_alignBottom="@+id/rv_typeOrder_menu"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/back_menu" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_typeOrder_menu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="@dimen/_20sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:orientation="vertical"
+                        android:paddingVertical="@dimen/_25sdp"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
 
-            </RelativeLayout>
+                </RelativeLayout>
 
 
-        </LinearLayout>
-    </ScrollView>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

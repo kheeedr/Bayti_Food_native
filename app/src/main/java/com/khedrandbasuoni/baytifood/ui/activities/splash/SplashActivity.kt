@@ -7,16 +7,17 @@ import androidx.databinding.DataBindingUtil
 import com.khedrandbasuoni.baytifood.R
 import android.content.Intent
 import android.os.Handler
+import android.os.Looper
 import com.khedrandbasuoni.baytifood.databinding.ActivitySplashBinding
 import com.khedrandbasuoni.baytifood.ui.activities.welcome.WelcomeActivity
 
 class SplashActivity : AppCompatActivity() {
-    var b: ActivitySplashBinding? = null
+    lateinit var b: ActivitySplashBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         super.onCreate(savedInstanceState)
         b = DataBindingUtil.setContentView(this, R.layout.activity_splash)
-        Handler().postDelayed({
+        Handler(Looper.getMainLooper()).postDelayed({
             startActivity(Intent(this, WelcomeActivity::class.java))
             finish()
         }, 3500)

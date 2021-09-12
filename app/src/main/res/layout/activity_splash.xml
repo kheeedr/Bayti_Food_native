@@ -44,19 +44,23 @@
             android:id="@+id/tv_meal_splash"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/main_color"
-            android:fontFamily="@font/cabin_bold"
-            android:text="@string/meal"
-            android:textSize="@dimen/_30sdp"
+            android:fontFamily="@font/unicorn_regular"
+            android:text="@string/bayti"
+            android:textSize="@dimen/_60sdp"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:textColor="@color/secondary_color"
            />
 
         <TextView
+
             android:id="@+id/tv_delivery_splash"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/delivery"
-            android:textSize="@dimen/_30sdp"
-            android:fontFamily="@font/cabin_bold"
+            android:text="@string/food"
+            android:textSize="@dimen/_60sdp"
+            android:fontFamily="@font/unicorn_regular"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:textColor="@color/main_color"
 
             />
 

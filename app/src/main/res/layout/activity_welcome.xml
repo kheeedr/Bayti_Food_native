@@ -6,27 +6,26 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:fillViewport="true"
+        android:fitsSystemWindows="true">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:context=".ui.activities.welcome.WelcomeActivity"
-            >
+            tools:context=".ui.activities.welcome.WelcomeActivity">
 
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_images_welcome"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_350sdp"
-                android:layout_marginTop="@dimen/_70sdp"
                 android:orientation="horizontal"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                app:layout_constraintBottom_toTopOf="@id/bt_next_welcome"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.35" />
 
             <Button
                 android:id="@+id/bt_next_welcome"
@@ -38,10 +37,11 @@
                 android:text="@string/next"
                 android:textAllCaps="false"
                 android:textSize="@dimen/_15sdp"
-                app:layout_constraintBottom_toTopOf="@id/tv_skip_welcome"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/rv_images_welcome" />
+                app:layout_constraintTop_toBottomOf="@+id/rv_images_welcome"
+                app:layout_constraintVertical_bias="0.3" />
 
             <TextView
                 android:id="@+id/tv_skip_welcome"
@@ -57,9 +57,10 @@
                 android:textSize="@dimen/_15sdp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.95"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/bt_next_welcome"
-                app:layout_constraintVertical_bias="0.9" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.01" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 </layout>

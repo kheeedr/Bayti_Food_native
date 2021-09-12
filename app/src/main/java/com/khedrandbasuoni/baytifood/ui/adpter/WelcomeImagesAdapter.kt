@@ -8,6 +8,7 @@ import com.khedrandbasuoni.baytifood.databinding.ItemSliderWelcomeBinding
 import com.khedrandbasuoni.baytifood.ui.adpter.WelcomeImagesAdapter.WelcomeVH
 
 class WelcomeImagesAdapter : RecyclerView.Adapter<WelcomeVH>() {
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WelcomeVH {
         return WelcomeVH(
             ItemSliderWelcomeBinding.inflate(
@@ -45,7 +46,5 @@ class WelcomeImagesAdapter : RecyclerView.Adapter<WelcomeVH>() {
         return 3
     }
 
-    class WelcomeVH(var b: ItemSliderWelcomeBinding) : RecyclerView.ViewHolder(
-        b.root
-    )
+    class WelcomeVH(var b: ItemSliderWelcomeBinding) : RecyclerView.ViewHolder(b.root)
 }

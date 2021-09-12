@@ -5,30 +5,32 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fragmentContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.activities.main.MainActivity"
-        android:id="@+id/fragmentContainer">
+        android:paddingHorizontal="0dp"
+        android:layout_marginHorizontal="0dp"
+        android:fitsSystemWindows="true"
+        tools:context=".ui.activities.main.MainActivity">
 
 
         <com.ismaeldivita.chipnavigation.ChipNavigationBar
-                android:id="@+id/bottomNav"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_marginHorizontal="@dimen/_15sdp"
-                android:layout_marginBottom="@dimen/_25sdp"
-                android:background="@drawable/back_bar"
-                android:elevation="@dimen/_10sdp"
-                android:translationZ="@dimen/_10sdp"
-                app:cnb_iconSize="@dimen/_13sdp"
-                app:cnb_menuResource="@menu/items"
-                app:cnb_orientationMode="horizontal"
-                app:cnb_radius="@dimen/_10sdp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                 />
+            android:id="@+id/bottomNav"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:paddingVertical="@dimen/_5sdp"
+            android:background="@drawable/back_bar"
+            android:elevation="@dimen/_5sdp"
+            android:translationZ="@dimen/_10sdp"
+            app:cnb_iconSize="@dimen/_13sdp"
+            app:cnb_menuResource="@menu/bottom_bar_items"
+            app:cnb_orientationMode="horizontal"
+            app:cnb_radius="@dimen/_15sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

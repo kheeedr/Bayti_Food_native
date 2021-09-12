@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Bayti Food</string>
-    <string name="meal">Meal</string>
-    <string name="delivery">Delivery</string>
+    <string name="bayti">Bayti</string>
+    <string name="food">Food</string>
     <string name="find_food_you_love">Find Food You Love</string>
     <string name="description_find_food_you_love">Discover the best foods from over 1,000 restaurants and fast delivery to your doorstep</string>
     <string name="get_started">Get Started</string>
@@ -32,13 +32,13 @@
     <string name="shopping">Shopping</string>
     <string name="home">Home</string>
     <string name="profile">Profile</string>
-    <string name="more">More</string>
+    <string name="cart">Cart</string>
     <string name="search_here">Search here</string>
     <string name="view_all">View all</string>
     <string name="popular_restaurants">Popular Restaurants</string>
     <string name="name_fast_food">Name Fast Food</string>
-    <string name="popular_most">Popular Most</string>
-    <string name="edit_profile_picture">Edit profile picture</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="update_picture">Update picture</string>
     <string name="sign_out">Sign Out</string>
     <string name="e_mail">E-mail</string>
     <string name="save">Save</string>
@@ -51,6 +51,7 @@
     <string name="verify">Verify</string>
     <string name="verification_code">Verification Code</string>
     <string name="enter_the_code_that_we_sent_you_in_the_sms">enter the code that we sent you in the SMS</string>
+    <string name="login_now">Login now</string>
 
 
 </resources>

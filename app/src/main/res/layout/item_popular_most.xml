@@ -6,86 +6,86 @@
 
     </data>
 
-    <androidx.cardview.widget.CardView
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="@dimen/_190sdp"
         android:layout_height="@dimen/_175sdp"
-        android:layout_margin="@dimen/_5sdp"
-        android:elevation="@dimen/_20sdp"
-        app:cardCornerRadius="@dimen/_20sdp">
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:background="@drawable/back_rounded"
+        android:elevation="@dimen/_3sdp"
+        android:translationZ="@dimen/_5sdp">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_popular_most"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFF">
+            android:layout_height="@dimen/_110sdp"
+            android:adjustViewBounds="false"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/iv_test_4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearance="@color/white"
+            app:shapeAppearanceOverlay="@style/rounded_corners"/>
 
-            <ImageView
-                android:id="@+id/iv_popular_most"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_120sdp"
-                android:layout_marginTop="@dimen/_1sdp"
-                android:contentDescription="@string/todo"
-                android:scaleType="centerCrop"
-                android:src="@drawable/iv_popular_most"
-                android:transitionName="Big"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/tv_namePopular_most"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:text="@string/name_fast_food"
+            android:textAlignment="textStart"
+            android:textColor="#302A3A"
+            android:textSize="@dimen/_17sdp"
+            app:layout_constraintBottom_toTopOf="@+id/tv_descriptionPopular_most"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_popular_most"
+            tools:ignore="RtlSymmetry" />
 
-            <TextView
-                android:id="@+id/tv_namePopular_most"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_8sdp"
-                android:layout_marginBottom="@dimen/_5sdp"
-                android:paddingStart="@dimen/_15sdp"
-                android:text="@string/name_fast_food"
-                android:textAlignment="textStart"
-                android:textColor="#302A3A"
-                android:textSize="@dimen/_17sdp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/iv_popular_most"
-                tools:ignore="RtlSymmetry" />
+        <TextView
+            android:id="@+id/tv_descriptionPopular_most"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:paddingStart="@dimen/_1sdp"
+            android:text="Café - Western Food"
+            android:textAlignment="textStart"
+            android:textColor="#65616D"
+            android:textSize="@dimen/_10sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_namePopular_most"
+            tools:ignore="HardcodedText,RtlSymmetry" />
 
-            <TextView
-                android:id="@+id/tv_descriptionPopular_most"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="5dp"
-                android:paddingStart="@dimen/_1sdp"
-                android:text="Café - Western Food"
-                android:textAlignment="textStart"
-                android:textColor="#65616D"
-                android:textSize="@dimen/_10sdp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tv_namePopular_most"
-                tools:ignore="HardcodedText,RtlSymmetry" />
+        <TextView
+            android:id="@+id/tv_ratingsPopular_most"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="4.9"
+            android:textColor="#E76C45"
+            android:textSize="@dimen/_11sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_startPopular_most"
+            app:layout_constraintStart_toEndOf="@+id/iv_startPopular_most"
+            app:layout_constraintTop_toTopOf="@+id/iv_startPopular_most"
+            tools:ignore="HardcodedText" />
 
-            <TextView
-                android:id="@+id/tv_ratingsPopular_most"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
-                android:layout_marginTop="5dp"
-                android:text="4.9"
-                android:textColor="#E76C45"
-                android:textSize="@dimen/_11sdp"
-                app:layout_constraintStart_toEndOf="@+id/iv_startPopular_most"
-                app:layout_constraintTop_toBottomOf="@+id/tv_namePopular_most"
-                tools:ignore="HardcodedText" />
+        <ImageView
+            android:id="@+id/iv_startPopular_most"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_star"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_descriptionPopular_most"
+            app:layout_constraintStart_toEndOf="@+id/tv_descriptionPopular_most"
+            app:layout_constraintTop_toTopOf="@+id/tv_descriptionPopular_most"
+            tools:ignore="ContentDescription" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <ImageView
-                android:id="@+id/iv_startPopular_most"
-                android:layout_width="@dimen/_15sdp"
-                android:layout_height="@dimen/_15sdp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:src="@drawable/ic_star"
-                app:layout_constraintStart_toEndOf="@+id/tv_descriptionPopular_most"
-                app:layout_constraintTop_toBottomOf="@+id/tv_namePopular_most"
-                tools:ignore="ContentDescription" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
 </layout>

@@ -3,14 +3,51 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable-v24/back_bar.xml" value="0.24397394136807818" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable-v24/btn.xml" value="0.24397394136807818" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable-v24/ic_add_circle.xml" value="0.24397394136807818" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable-v24/ic_gray_circle.xml" value="0.24397394136807818" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable-v24/stroke_et.xml" value="0.24397394136807818" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable-v24/stroke_trans_circle.xml" value="0.24397394136807818" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable-v24/stroke_white_circle.xml" value="0.24397394136807818" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable/back_rounded.xml" value="0.24397394136807818" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable/ic_blue_right_arrow.xml" value="0.24397394136807818" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable/ic_menu_bar.xml" value="0.2375" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable/ic_more_bar.xml" value="0.2375" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable/ic_profile_bar.xml" value="0.2375" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable/ic_right_orange_arrow.xml" value="0.24397394136807818" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable/ic_shopping_bag.xml" value="0.2375" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable/ic_shopping_cart.xml" value="0.2375" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable/ic_white_circle.xml" value="0.2433224755700326" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/drawable/stroke_bt.xml" value="0.24397394136807818" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/activity_new_password.xml" value="0.2361842105263158" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/activity_register.xml" value="0.2361842105263158" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/activity_reset_password.xml" value="0.2361842105263158" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/activity_signup.xml" value="0.2361842105263158" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/activity_splash.xml" value="0.25" />
         <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/activity_verfiy_otp.xml" value="0.22" />
-        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/fragment_home.xml" value="0.2222222222222222" />
-        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/fragment_menu.xml" value="0.2361842105263158" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/activity_welcome.xml" value="0.2361842105263158" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/fragment_account.xml" value="0.25" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/fragment_cart.xml" value="0.2355263157894737" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/fragment_menu.xml" value="0.25" />
         <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/fragment_more.xml" value="0.2361842105263158" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/fragment_orders.xml" value="0.2355263157894737" />
         <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/fragment_profile.xml" value="0.2361842105263158" />
         <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/fragment_shopping.xml" value="0.2361842105263158" />
-        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/menu/items.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/item_food_type.xml" value="0.2361842105263158" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/item_menu_section.xml" value="0.25" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/item_popular_dishes.xml" value="0.2355263157894737" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/item_popular_most.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/item_recent_items.xml" value="0.25" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/item_slider_welcome.xml" value="0.2361842105263158" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/item_type.xml" value="0.2361842105263158" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/layout/item_typeshop.xml" value="0.25" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/menu/bottom_bar_items.xml" value="0.22" />
+        <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/menu/items.xml" value="0.22" />
         <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2861111111111111" />
         <entry key="..\:/Users/YourPc/AndroidStudioProjects/BaytiFood2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2861111111111111" />
       </map>

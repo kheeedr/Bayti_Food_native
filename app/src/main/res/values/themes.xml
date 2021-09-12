@@ -19,5 +19,7 @@
         <!-- Customize your theme here. -->
         <item name="android:windowTranslucentStatus">true</item>
         <!--        <item name="android:windowTranslucentNavigation">true</item>-->
+<!--        <item name="pinViewStyle">@style/PinWidget.PinView</item>-->
+
     </style>
 </resources>

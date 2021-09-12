@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">بيتي فوود</string>
-    <string name="meal">Meal</string>
-    <string name="delivery">Delivery</string>
+    <string name="bayti">بيتي</string>
+    <string name="food">فوود</string>
     <string name="find_food_you_love">ابحث عن الاكل الذي تحبه</string>
     <string name="description_find_food_you_love">"اكتشف افضل الاطعمه من بين 1000 مطعم واستمتع بالتوصيل السريع لحد باب البيت "</string>
     <string name="get_started">البدء</string>
@@ -33,13 +33,13 @@
     <string name="shopping">التسوق</string>
     <string name="home">الرئيسية</string>
     <string name="profile">الحساب</string>
-    <string name="more">المزيد</string>
+    <string name="cart">عربة التسوق</string>
     <string name="search_here">البحث</string>
     <string name="view_all">عرض الكل</string>
     <string name="popular_restaurants">مطاعم شعبية</string>
     <string name="name_fast_food">أسم الوجبة السريعة</string>
-    <string name="popular_most">الأكثر شعبية</string>
-    <string name="edit_profile_picture">تعديل الصوره الشخصيه</string>
+    <string name="most_popular">الأكثر شعبية</string>
+    <string name="update_picture">تعديل الصوره الشخصيه</string>
     <string name="sign_out">تسجيل الخروج</string>
     <string name="e_mail">البريد الالكتروني</string>
     <string name="save">حفظ</string>
@@ -52,4 +52,5 @@
     <string name="reset_password_header">Reset Password</string>
     <string name="send_code">Send Code</string>
     <string name="enter_the_code_that_we_sent_you_in_the_sms">enter the code that we sent you in the SMS</string>
+    <string name="login_now">Login now</string>
 </resources>
