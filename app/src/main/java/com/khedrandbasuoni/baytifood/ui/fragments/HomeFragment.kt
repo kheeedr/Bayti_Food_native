@@ -34,17 +34,19 @@ class HomeFragment : Fragment(), View.OnClickListener {
     ): View {
         b = DataBindingUtil.inflate(inflater, R.layout.fragment_home, container, false)
         b.ivProfileHome.setOnClickListener(this)
+
         fillContentLists()
+
         popularDishesAdapter = PopularDishesAdapter(requireContext())
-        b.rvShopsHome.adapter = popularDishesAdapter
         popularDishesAdapter.list = popularDishesList
+        b.rvShopsHome.adapter = popularDishesAdapter
 
         mostPopularAdapter = MostPopularAdapter(requireContext())
         mostPopularAdapter.list = mostPopularList
         mostPopularAdapter.notifyItemRangeInserted(0, mostPopularList.size)
         b.rvMostPopularHome.adapter = mostPopularAdapter
 
-        recentItemsAdapter = RecentItemsAdapter(requireContext(), mostPopularList)
+        recentItemsAdapter = RecentItemsAdapter(requireContext())
         b.rvRecentItemsHome.adapter = recentItemsAdapter
         recentItemsAdapter.list = mostPopularList
         recentItemsAdapter.notifyItemRangeInserted(0, mostPopularList.size)
@@ -62,7 +64,6 @@ class HomeFragment : Fragment(), View.OnClickListener {
                     b.layoutDeliveringTo.elevation =
                         resources.getDimensionPixelSize(R.dimen._3sdp).toFloat()
                 }
-
             }
         }
 

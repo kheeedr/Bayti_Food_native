@@ -12,10 +12,10 @@
             android:id="@+id/item_subContainer"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_65sdp"
-            android:layout_marginBottom="@dimen/_10sdp"
-            android:layout_marginTop="@dimen/_2sdp"
             android:layout_marginStart="@dimen/_30sdp"
-            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
             android:background="@drawable/back_rounded"
             android:elevation="@dimen/_2sdp"
             android:translationZ="@dimen/_3sdp"
@@ -50,7 +50,15 @@
                 app:layout_constraintStart_toStartOf="@+id/Name_itmes"
                 app:layout_constraintTop_toBottomOf="@+id/Name_itmes" />
 
-
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:src="@drawable/ic_right_orange_arrow"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <ImageView
@@ -58,10 +66,10 @@
             android:layout_width="@dimen/_60sdp"
             android:layout_height="@dimen/_60sdp"
             android:layout_margin="@dimen/_4sdp"
-            android:scaleType="fitCenter"
             android:adjustViewBounds="true"
             android:background="@drawable/stroke_trans_circle"
             android:elevation="@dimen/_10sdp"
+            android:scaleType="fitCenter"
             android:src="@drawable/ic_food_menu_item"
             android:translationZ="@dimen/_7sdp"
             app:layout_constraintBottom_toBottomOf="@+id/item_subContainer"
@@ -69,20 +77,6 @@
             app:layout_constraintStart_toStartOf="@+id/item_subContainer"
             app:layout_constraintTop_toTopOf="@+id/item_subContainer" />
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="@dimen/_35sdp"
-            android:layout_height="@dimen/_35sdp"
-            android:background="@drawable/stroke_white_circle"
-            android:elevation="@dimen/_3sdp"
-            android:padding="@dimen/_9sdp"
-            android:src="@drawable/ic_right_orange_arrow"
-            android:translationZ="@dimen/_5sdp"
-
-            app:layout_constraintBottom_toBottomOf="@+id/item_subContainer"
-            app:layout_constraintEnd_toEndOf="@id/item_subContainer"
-            app:layout_constraintStart_toEndOf="@id/item_subContainer"
-            app:layout_constraintTop_toTopOf="@+id/item_subContainer" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

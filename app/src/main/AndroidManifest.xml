@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BaytiFood">
         <activity
+            android:name=".ui.activities.product.ProductActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor"
+            android:windowSoftInputMode="adjustPan|stateAlwaysVisible" />
+        <activity
             android:name=".ui.activities.profile.ProfileActivity"
             android:exported="true"
             android:screenOrientation="nosensor"
@@ -21,7 +26,7 @@
         <activity
             android:name=".ui.activities.verifyCode.VerifyCodeActivity"
             android:screenOrientation="nosensor"
-            android:windowSoftInputMode="stateAlwaysVisible|adjustResize"/>
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize" />
         <activity
             android:name=".ui.activities.resetPassword.ResetPasswordActivity"
             android:screenOrientation="nosensor"
@@ -29,11 +34,12 @@
         <activity
             android:name=".ui.activities.main.MainActivity"
             android:screenOrientation="nosensor"
-            android:windowSoftInputMode="adjustPan|stateAlwaysVisible"/>
+            android:windowSoftInputMode="adjustPan|stateAlwaysVisible">
+        </activity>
         <activity
             android:name=".ui.activities.signUp.SignUp"
             android:screenOrientation="nosensor"
-            android:windowSoftInputMode="stateAlwaysVisible|adjustResize"/>
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize" />
         <activity
             android:name=".ui.activities.login.LoginActivity"
             android:screenOrientation="nosensor"
@@ -41,11 +47,12 @@
         <activity
             android:name=".ui.activities.welcome.WelcomeActivity"
             android:screenOrientation="nosensor"
-            android:windowSoftInputMode="adjustPan|stateAlwaysVisible"/>
+            android:windowSoftInputMode="adjustPan|stateAlwaysVisible" />
         <activity
             android:name=".ui.activities.splash.SplashActivity"
             android:exported="true"
             android:screenOrientation="nosensor">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

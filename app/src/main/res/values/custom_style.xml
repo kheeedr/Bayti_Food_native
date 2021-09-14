@@ -19,4 +19,12 @@
         <item name="cornerSizeTopRight">0%</item>
 
     </style>
+    <style name="SwitchStyle" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Switch" parent="">
+        <item name="colorOnSurface">@color/secondary_color</item>
+        <item name="colorSecondary">@color/main_color</item>
+    </style>
 </resources>

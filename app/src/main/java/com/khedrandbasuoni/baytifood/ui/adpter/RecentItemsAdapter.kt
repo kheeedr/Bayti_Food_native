@@ -8,8 +8,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.khedrandbasuoni.baytifood.databinding.ItemRecentItemsBinding
 import com.khedrandbasuoni.baytifood.pojo.Meal
 
-class RecentItemsAdapter(var context: Context,  var list: List<Meal>) :
+class RecentItemsAdapter(var context: Context) :
     RecyclerView.Adapter<RecentItemsAdapter.Popular>() {
+     var list: ArrayList<Meal> = ArrayList()
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Popular {
         return Popular(
             ItemRecentItemsBinding.inflate(
@@ -19,6 +20,7 @@ class RecentItemsAdapter(var context: Context,  var list: List<Meal>) :
             )
         )
     }
+
 
     @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: Popular, position: Int) {

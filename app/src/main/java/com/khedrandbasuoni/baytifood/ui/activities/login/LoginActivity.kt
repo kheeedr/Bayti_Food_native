@@ -21,6 +21,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         b = DataBindingUtil.setContentView(this, R.layout.activity_login)
+
         b.btToRegisterLogin.setOnClickListener(this)
         b.btToLoginLogin.setOnClickListener(this)
         b.tvForgetPasswordLogin.setOnClickListener(this)
