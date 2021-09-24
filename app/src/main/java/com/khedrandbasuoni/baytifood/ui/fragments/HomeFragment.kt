@@ -11,6 +11,7 @@ import com.khedrandbasuoni.baytifood.R
 import com.khedrandbasuoni.baytifood.databinding.FragmentHomeBinding
 import com.khedrandbasuoni.baytifood.pojo.Meal
 import com.khedrandbasuoni.baytifood.pojo.PopularDishes
+import com.khedrandbasuoni.baytifood.ui.activities.product.ProductActivity
 import com.khedrandbasuoni.baytifood.ui.activities.profile.ProfileActivity
 import com.khedrandbasuoni.baytifood.ui.adpter.MostPopularAdapter
 import com.khedrandbasuoni.baytifood.ui.adpter.RecentItemsAdapter
@@ -34,6 +35,7 @@ class HomeFragment : Fragment(), View.OnClickListener {
     ): View {
         b = DataBindingUtil.inflate(inflater, R.layout.fragment_home, container, false)
         b.ivProfileHome.setOnClickListener(this)
+        b.popularKushari.setOnClickListener(this)
 
         fillContentLists()
 
@@ -71,7 +73,6 @@ class HomeFragment : Fragment(), View.OnClickListener {
         return b.root
     }
 
-
     private fun fillContentLists() {
         popularDishesList.apply {
             add(PopularDishes("Egyptian", R.drawable.img_egyptian_food))
@@ -94,6 +95,9 @@ class HomeFragment : Fragment(), View.OnClickListener {
         when (v) {
             b.ivProfileHome -> {
                 startActivity(Intent(requireContext(), ProfileActivity::class.java))
+            }
+            b.popularKushari -> {
+                startActivity(Intent(requireContext(), ProductActivity::class.java))
             }
         }
     }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c)    15/9/2021
+  ~ Mohamed khedr
+  -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="@dimen/_4sdp" />
+    <stroke
+        android:width="5px"
+        android:color="@color/main_color" />
+</shape>

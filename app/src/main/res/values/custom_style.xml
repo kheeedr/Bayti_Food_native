@@ -22,7 +22,10 @@
     <style name="SwitchStyle" parent="Widget.MaterialComponents.CompoundButton.Switch">
         <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
     </style>
-
+    <style name="RatingBar" parent="">
+        <item name="colorControlActivated">@color/main_color</item>
+        <item name="colorControlNormal">@color/secondary_color</item>
+    </style>
     <style name="ThemeOverlay.App.Switch" parent="">
         <item name="colorOnSurface">@color/secondary_color</item>
         <item name="colorSecondary">@color/main_color</item>

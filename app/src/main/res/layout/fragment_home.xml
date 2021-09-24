@@ -6,7 +6,6 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.fragments.Homgment"
         tools:ignore="RtlHardcoded,RtlSymmetry">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -229,7 +228,7 @@
 
 
                     <androidx.constraintlayout.widget.ConstraintLayout
-                        android:id="@+id/constraintLayout"
+                        android:id="@+id/popular_kushari"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_185sdp"
                         android:layout_marginHorizontal="@dimen/_10sdp"
@@ -249,7 +248,7 @@
                             android:layout_marginTop="@dimen/_1sdp"
                             android:contentDescription="@string/todo"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/img_popular_restaurants"
+                            android:src="@drawable/img_koshary2"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
@@ -263,7 +262,7 @@
                             android:layout_marginTop="@dimen/_8sdp"
                             android:layout_marginBottom="@dimen/_5sdp"
                             android:paddingStart="@dimen/_15sdp"
-                            android:text="Baked by Tella"
+                            android:text="Egyptian Kushari"
                             android:textAlignment="textStart"
                             android:textColor="#302A3A"
                             android:textSize="@dimen/_20sdp"
@@ -276,34 +275,34 @@
                             android:id="@+id/Direcsh1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="@dimen/_15sdp"
-                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginStart="@dimen/_10sdp"
                             android:paddingStart="@dimen/_1sdp"
-                            android:text="(124 ratings) Café - Western Food"
+                            android:text="(124 ratings) Restaurant - Tom and Basal"
                             android:textAlignment="textStart"
                             android:textColor="#65616D"
                             android:textSize="@dimen/_10sdp"
+                            app:layout_constraintBottom_toBottomOf="@+id/Price1"
                             app:layout_constraintStart_toEndOf="@+id/Price1"
-                            app:layout_constraintTop_toBottomOf="@+id/tv_namePopular_home"
+                            app:layout_constraintTop_toTopOf="@+id/Price1"
                             tools:ignore="HardcodedText,RtlSymmetry" />
 
                         <TextView
                             android:id="@+id/Price1"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="@dimen/_8sdp"
-                            android:layout_marginTop="@dimen/_5sdp"
-                            android:text="4.9"
+                            android:text="4.7"
+                            android:layout_marginStart="@dimen/_4sdp"
                             android:textColor="@color/main_color"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView41"
                             app:layout_constraintStart_toEndOf="@+id/imageView41"
-                            app:layout_constraintTop_toBottomOf="@+id/tv_namePopular_home" />
+                            app:layout_constraintTop_toTopOf="@+id/imageView41" />
 
                         <ImageView
                             android:id="@+id/imageView41"
-                            android:layout_width="@dimen/_20sdp"
+                            android:layout_width="wrap_content"
                             android:layout_height="@dimen/_15sdp"
                             android:layout_marginStart="@dimen/_15sdp"
-                            android:layout_marginTop="5dp"
+                            android:layout_marginTop="@dimen/_5sdp"
                             android:src="@drawable/ic_star"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/tv_namePopular_home"
