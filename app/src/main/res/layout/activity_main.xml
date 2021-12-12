@@ -11,7 +11,7 @@
         android:paddingHorizontal="0dp"
         android:layout_marginHorizontal="0dp"
         android:fitsSystemWindows="true"
-        tools:context=".ui.activities.main.MainActivity">
+        tools:context=".presentaion.ui.main.MainActivity">
 
 
         <com.ismaeldivita.chipnavigation.ChipNavigationBar

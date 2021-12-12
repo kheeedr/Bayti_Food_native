@@ -3,7 +3,7 @@
   ~ Mohamed khedr
   -->
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/pink_background" android:state_checked="true" />
+    <item android:drawable="@drawable/orange_background" android:state_checked="true" />
     <item android:drawable="@color/trans" android:state_checked="false"  />
     <item android:drawable="@color/trans"  />
 </selector>

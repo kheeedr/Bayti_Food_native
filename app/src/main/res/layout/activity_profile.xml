@@ -15,7 +15,7 @@
             android:layout_height="@dimen/_40sdp"
             android:layoutDirection="ltr"
             app:layout_constraintTop_toTopOf="parent"
-            tools:context=".ui.activities.profile.ProfileActivity">
+            tools:context=".presentaion.ui.profile.ProfileActivity">
 
             <TextView
                 android:id="@+id/tv_pageName_profile"

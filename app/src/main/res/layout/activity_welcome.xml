@@ -12,7 +12,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:context=".ui.activities.welcome.WelcomeActivity">
+            tools:context=".presentaion.ui.welcome.WelcomeActivity">
 
 
             <androidx.recyclerview.widget.RecyclerView

@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        tools:context=".ui.activities.product.ProductActivity">
+        tools:context=".presentaion.ui.product.ProductActivity">
 
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
@@ -189,7 +189,6 @@
                             android:background="@drawable/toggle_widget_background"
                             android:button="@null"
                             android:gravity="center"
-
                             android:paddingHorizontal="@dimen/_10sdp"
                             android:text="Small"
                             android:textColor="@drawable/toggle_widget_text_color"
