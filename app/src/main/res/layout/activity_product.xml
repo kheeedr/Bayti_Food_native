@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        tools:context=".presentaion.ui.product.ProductActivity">
+        tools:context=".presentation.ui.product.ProductActivity">
 
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"

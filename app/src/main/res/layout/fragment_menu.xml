@@ -6,7 +6,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".presentaion.ui.menu.MenuFragment">
+        tools:context=".presentation.ui.menu.MenuFragment">
 
         <RelativeLayout
             android:id="@+id/layout_mainTv_menu"

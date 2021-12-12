@@ -6,7 +6,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".presentaion.ui.splash.SplashActivity">
+        tools:context=".presentation.ui.splash.SplashActivity">
 
         <ImageView
             android:id="@+id/iv_back_splash"
